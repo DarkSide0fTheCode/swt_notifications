@@ -1,6 +1,7 @@
 # swt_notifications
 
 FiveM notification system using [Quasar](https://quasar.dev/) framework and [Material Design Icons](https://materialdesignicons.com/).
+Added possibility to trigger sounds (native gta library or a custom one, using interactsound)
 
 ![Screenshots are here](https://imgur.com/mNUe3h1.jpg) 
 
