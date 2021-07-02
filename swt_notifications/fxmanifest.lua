@@ -14,8 +14,10 @@ files{
     'index.html'
 }
 
-
-client_script "client.lua"
+client_scripts {
+    "config.lua", 
+    "client.lua"
+}
 
 exports {
     'Default',
