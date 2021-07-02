@@ -158,14 +158,14 @@ TriggerEvent("swt_notifications:Icon","Hey, this is an example","top",2500,"blue
 --or
 exports['swt_notifications']:Icon("Hey, this is an example","top",2500,"blue-10","white",true,"mdi-earth",false,true) // Custom sound triggered through interactsounds (default option in Config)
 
-local sound = {name = "BASE_JUMP_PASSED", reference = "HUD_AWARDS"} \\ Custom sound from GTA library 
+local sound = {name = "BASE_JUMP_PASSED", reference = "HUD_AWARDS"} // Custom sound from GTA library 
 exports['swt_notifications']:Icon("Hey, this is an example","top",2500,"blue-10","white",true,"mdi-earth",sound,false) 
 
-local customSound = {audioName = "demo", volume = 2.0} \\ Custom sound triggered through interactsounds
+local customSound = {audioName = "demo", volume = 2.0} // Custom sound triggered through interactsounds
 exports['swt_notifications']:Icon("Hey, this is an example","top",2500,"blue-10","white",true,"mdi-earth",false,customSound)
 
 --Server
-TriggerClientEvent("swt_notifications:Icon",source,"Hey, this is an example","top",2500,"blue-10","white",true,"mdi-earth",false,false) \\ Double false = no sounds
+TriggerClientEvent("swt_notifications:Icon",source,"Hey, this is an example","top",2500,"blue-10","white",true,"mdi-earth",false,false) // Double false = no sounds
 ```
 ___
 ## Credits
